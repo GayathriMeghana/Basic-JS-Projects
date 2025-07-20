@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 10rem;
+    color: white;
+  }
+  .topSec {
+    height: 10rem;
+    border-bottom: 5px solid white;
+  }
+  .topSec ul {
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.3rem;
+  }
+  button {
+    height: 3rem;
+    width: 10rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin: none;
+  }
+  .btn{
+    height: 5rem;
+    width: 20rem;
+    margin-left: 38%;
+    background-color: aqua;
+  }
+  .topSec h1 {
+    font-size: 4rem;
+  }
+  .number {
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+    margin-left: 45%;
+    margin-top: 0.7rem;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .remSec {
+    height: 10rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+  }
+  .left {
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .left input {
+    height: 5rem;
+    width: 15rem;
+    background-color: black;
+    border: 5px solid white;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .right p:nth-child(2) {
+    margin-top: 2rem;
+  }
+  .modal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    color: black;
+    background-image: url("./congo.jpg");
+    background-size: cover;
+    background-repeat: none;
+  }
+  .lose {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    color: rgb(244, 242, 242);
+    background-image: url("./lost.jpg");
+    background-size: cover;
+    background-repeat: none;
+  }
